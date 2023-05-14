@@ -6,7 +6,7 @@
 /*   By: sucho <sucho@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/11 22:03:13 by sucho             #+#    #+#             */
-/*   Updated: 2023/05/14 23:05:29 by sucho            ###   ########.fr       */
+/*   Updated: 2023/05/14 23:08:17 by sucho            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,11 @@ int main(int argc, char *argv[])
 		i = 0;
 		while (argv[2][i])
 		{
+			// counter가 증가하면 처음에는 f 를 보는데 다음에는 a를 봄
+			// 이 조건을 써야 첫번째 문자열의 문자 순서대로 넘아가게됨
+			// if str2[i] == str[counter (where counter is 0)]
+			// counter++ (= counter + 1)
+			// then str[1(counter)] => 'a', not 'f'
 			if (argv[2][i] == argv[1][counter])
 			{
 				counter++;
