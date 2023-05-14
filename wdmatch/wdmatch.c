@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   rev_wstr.c                                         :+:      :+:    :+:   */
+/*   wdmatch.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sucho <sucho@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/11 22:03:13 by sucho             #+#    #+#             */
-/*   Updated: 2023/05/14 23:01:52 by sucho            ###   ########.fr       */
+/*   Updated: 2023/05/14 23:05:29 by sucho            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,14 +27,12 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		int i;
-		int j;
 		int counter = 0;
-		int result = 0;
 
 		i = 0;
 		while (argv[2][i])
 		{
-			if(argv[2][i] == argv[1][counter])
+			if (argv[2][i] == argv[1][counter])
 			{
 				counter++;
 			}
@@ -47,5 +45,11 @@ int main(int argc, char *argv[])
 			printf("%s", argv[1]);
 		printf("\n");
 	}
+	else
+		printf("\n");
 	return (0);
 }
+
+// ex1.
+// $>./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
+
