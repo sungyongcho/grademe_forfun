@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 // 재귀 설명은 따로 안적음
+// ref. https://www.google.com/search?q=%EC%86%8C%EC%88%98+%ED%8A%B9%EC%A7%95&rlz=1C5CHFA_enKR938KR938&oq=%EC%86%8C%EC%88%98+%ED%8A%B9%EC%A7%95&aqs=chrome..69i57j0i5i15i30l3.2280j0j4&sourceid=chrome&ie=UTF-8
 
 void display_prime_factors(int num, int factor) {
     if (num <= 1) {
