@@ -1,0 +1,25 @@
+## Level 1
+
+- first_word: argc, argv, 배열, 공백있을때 잘라내기 (앞 뒤로 둘다), 다음 스페이스 나올때 나머지 뒤 문자들 삭제
+
+- fizzbuzz: 배열, 반복문, 반복문 조건에 따라 fizz 나 buzz 출력 (% 연산자 이용해보기)
+
+- ft_putstr: ㅎㅎ..
+
+- ft_strcpy: 배열 내용을 다음 배열내용에 복사하기
+
+- ft_strlen: ㅎㅎ..
+
+- ft_swap: 배열 주소는 그대로, 값만 복사, (1 + n) / 2 ?? 특성 이용해서 배열의 반만
+
+- repeat_alpha: argc, argv, 배열, index값을 활용해서 문자의 개수 늘려가며 출력, isalpha 함수 활용(알파벳일때만 반복하기 위한 조건에 활용), 예외처리
+
+- rev_print: argc, argv, 받아온 문자열 진짜 그대로 거꾸로 출력하기, (index값을 거꾸로 사용하면 쉬움)
+
+- rot_13: 가장 기초적인 암호화/복호화. 'z' ascii 값과 'm' ascii의 차이는 13이다. 이를 활용해서 문자 하나하나
+
+- rotone: 위와 똑같음, 대신 이번엔 1씩만 증가 시키기, 만약 값이 z 나 Z 일 경우?? a로 넘어가는것 같음 (확인 필요)
+
+
+- search_and_replace: argc, argv. 두번째 argv, 세번째 argv 값을 받아서 문제에 나온거에 맞게 '값을 바꿔주기만 하면' 됨.
+
